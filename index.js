@@ -7,3 +7,13 @@ function moveDodgerLeft() {
     dodger.style.left = `${left - 1}px`
   }
 }
+function moveDodgerRight(){
+  var rightNumbers =  dodger.
+}
+
+
+document.addEventListener('keydown', function(e) {
+  if (e.which === 37) {
+    moveDodgerLeft()
+  }
+});
